@@ -1,0 +1,20 @@
+# puck_config.yaml - puck global configuration
+# Set the following options to true or false to enable/disable features.
+# Lines starting with '#' are comments. Example: copy_cheatsheet: true
+
+# copy_cheatsheet: When true, puck copies language cheatsheets from puck/cheatsheet
+# into newly created projects. You can still override per-create with --no-cheatsheet.
+copy_cheatsheet: true
+
+# auto_venv: When true, puck will create a Python virtual environment for new
+# python projects. Set to false to skip automatic venv creation.
+auto_venv: true
+
+# assembly_build: When true, puck will attempt to build/run assembly projects
+# (using Makefile or nasm/ld). Set to false to disable building assembly projects.
+assembly_build: true
+
+# delete_force: When true, deleting a project will NOT ask for confirmation.
+# Use with caution; this will permanently delete the specified project.
+delete_force: false
+
